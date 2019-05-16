@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vrinput.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Kurimoto\\Desktop\\Store\\VRInput\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "VRInput [Testing]"
+        }
+      }
+    }
+  ]
+}
