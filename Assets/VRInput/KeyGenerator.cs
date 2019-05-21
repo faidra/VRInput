@@ -1,39 +1,6 @@
 ﻿using UnityEngine;
 using System;
 
-[Serializable]
-public class KeySet
-{
-    public bool IsTapTrigger;
-    public string Tap;
-    public string Snap;
-    public string Left;
-    public string Up;
-    public string Right;
-    public string Down;
-}
-
-[Serializable]
-public class KeyMap
-{
-    public KeySet Center;
-    public KeySet Left;
-    public KeySet Up;
-    public KeySet Right;
-    public KeySet Down;
-}
-
-[Serializable]
-public class KeyMaster
-{
-    public KeyMap Off;
-    public KeyMap Center;
-    public KeyMap Left;
-    public KeyMap Up;
-    public KeyMap Right;
-    public KeyMap Down;
-}
-
 public class KeyGenerator : MonoBehaviour
 {
     [SerializeField]
