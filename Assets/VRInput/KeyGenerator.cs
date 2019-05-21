@@ -8,12 +8,13 @@ public class KeyGenerator : MonoBehaviour
     [SerializeField]
     PadState RightPad;
     [SerializeField]
-    KeyMaster KeyMaster;
+    KeyMasterStore KeyMasterStore;
     [SerializeField]
     SnapEvent SnapEvent;
     [SerializeField]
     TapEvent TapEvent;
 
+    KeyMaster KeyMaster => KeyMasterStore.KeyMaster;
     public event Action<string> Key;
 
     public void Start()
