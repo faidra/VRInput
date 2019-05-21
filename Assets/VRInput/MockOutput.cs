@@ -16,23 +16,6 @@ public class MockOutput : MonoBehaviour
 
     void OnKey(string key)
     {
-        switch (key)
-        {
-            case "{BS}": Delete(); break;
-            case "{Enter}": Append("\n"); break;
-            case "{Space}": Append(" "); break;
-            case "{Kanji}": break;
-            default: Append(key); break;
-        }
-    }
-
-    void Append(string key)
-    {
-        Text.text += key;
-    }
-
-    void Delete()
-    {
-        Text.text = string.Concat(Text.text.Take(Text.text.Length - 1));
+        Text.text = key;
     }
 }
