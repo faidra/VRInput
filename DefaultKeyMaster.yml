@@ -1,0 +1,246 @@
+Off:
+  Center:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: あ
+    Left: い
+    Up: う
+    Right: え
+    Down: お
+  Left:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: か
+    Left: き
+    Up: く
+    Right: け
+    Down: こ
+  Up:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: さ
+    Left: し
+    Up: す
+    Right: せ
+    Down: そ
+  Right:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: た
+    Left: ち
+    Up: つ
+    Right: て
+    Down: と
+  Down:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: な
+    Left: に
+    Up: ぬ
+    Right: ね
+    Down: の
+Center:
+  Center:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: は
+    Left: ひ
+    Up: ふ
+    Right: へ
+    Down: ほ
+  Left:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ま
+    Left: み
+    Up: む
+    Right: め
+    Down: も
+  Up:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: や
+    Left: っ
+    Up: ゆ
+    Right: ー
+    Down: よ
+  Right:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ら
+    Left: り
+    Up: る
+    Right: れ
+    Down: ろ
+  Down:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: わ
+    Left: 。
+    Up: を
+    Right: 、
+    Down: ん
+Left:
+  Center:
+    IsTapTrigger: true
+    Tap: '{Space}'
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Left:
+    IsTapTrigger: true
+    Tap: '{BS}'
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Up:
+    IsTapTrigger: true
+    Tap: '{Kanji}'
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Right:
+    IsTapTrigger: true
+    Tap: '{Enter}'
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Down:
+    IsTapTrigger: true
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+Up:
+  Center:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ぱ
+    Left: ぴ
+    Up: ぷ
+    Right: ぺ
+    Down: ぽ
+  Left:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Up:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Right:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Down:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+Right:
+  Center:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ば
+    Left: び
+    Up: ぶ
+    Right: べ
+    Down: ぼ
+  Left:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: が
+    Left: ぎ
+    Up: ぐ
+    Right: げ
+    Down: ご
+  Up:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ざ
+    Left: じ
+    Up: ず
+    Right: ぜ
+    Down: ぞ
+  Right:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: だ
+    Left: ぢ
+    Up: づ
+    Right: で
+    Down: ど
+  Down:
+    IsTapTrigger: false
+    Tap: ''
+    Snap: ゃ
+    Left: ''
+    Up: ゅ
+    Right: ''
+    Down: ょ
+Down:
+  Center:
+    IsTapTrigger: true
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Left:
+    IsTapTrigger: true
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Up:
+    IsTapTrigger: true
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Right:
+    IsTapTrigger: true
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
+  Down:
+    IsTapTrigger: true
+    Tap: ''
+    Snap: ''
+    Left: ''
+    Up: ''
+    Right: ''
+    Down: ''
