@@ -20,7 +20,7 @@ public class ToggleButtons : MonoBehaviour
         ButtonAndGameObjects
             .Select((bg, i) => bg.Button.OnClickAsObservable().Select(_ => i))
             .Merge()
-            .StartWith(0)
+            .Merge(Observable.Return(0).ObserveOnMainThread(MainThreadDispatchType.LateUpdate)) // すべてのStartを待ってから
             .Subscribe(i =>
         {
             foreach (var bg in ButtonAndGameObjects.WithIndex())
