@@ -1,0 +1,225 @@
+Values:
+  あ:
+  - VK_A
+  い:
+  - VK_I
+  う:
+  - VK_U
+  え:
+  - VK_E
+  お:
+  - VK_O
+  か:
+  - VK_K
+  - VK_A
+  き:
+  - VK_K
+  - VK_I
+  く:
+  - VK_K
+  - VK_U
+  け:
+  - VK_K
+  - VK_E
+  こ:
+  - VK_K
+  - VK_O
+  さ:
+  - VK_S
+  - VK_A
+  し:
+  - VK_S
+  - VK_I
+  す:
+  - VK_S
+  - VK_U
+  せ:
+  - VK_S
+  - VK_E
+  そ:
+  - VK_S
+  - VK_O
+  た:
+  - VK_T
+  - VK_A
+  ち:
+  - VK_T
+  - VK_I
+  つ:
+  - VK_T
+  - VK_U
+  て:
+  - VK_T
+  - VK_E
+  と:
+  - VK_T
+  - VK_O
+  な:
+  - VK_N
+  - VK_A
+  に:
+  - VK_N
+  - VK_I
+  ぬ:
+  - VK_N
+  - VK_U
+  ね:
+  - VK_N
+  - VK_E
+  の:
+  - VK_N
+  - VK_O
+  は:
+  - VK_H
+  - VK_A
+  ひ:
+  - VK_H
+  - VK_I
+  ふ:
+  - VK_H
+  - VK_U
+  へ:
+  - VK_H
+  - VK_E
+  ほ:
+  - VK_H
+  - VK_O
+  ま:
+  - VK_M
+  - VK_A
+  み:
+  - VK_M
+  - VK_I
+  む:
+  - VK_M
+  - VK_U
+  め:
+  - VK_M
+  - VK_E
+  も:
+  - VK_M
+  - VK_O
+  や:
+  - VK_Y
+  - VK_A
+  ゆ:
+  - VK_Y
+  - VK_U
+  よ:
+  - VK_Y
+  - VK_O
+  ら:
+  - VK_R
+  - VK_A
+  り:
+  - VK_R
+  - VK_I
+  る:
+  - VK_R
+  - VK_U
+  れ:
+  - VK_R
+  - VK_E
+  ろ:
+  - VK_R
+  - VK_O
+  わ:
+  - VK_W
+  - VK_A
+  を:
+  - VK_W
+  - VK_O
+  ん:
+  - VK_N
+  - VK_N
+  が:
+  - VK_G
+  - VK_A
+  ぎ:
+  - VK_G
+  - VK_I
+  ぐ:
+  - VK_G
+  - VK_U
+  げ:
+  - VK_G
+  - VK_E
+  ご:
+  - VK_G
+  - VK_O
+  ざ:
+  - VK_Z
+  - VK_A
+  じ:
+  - VK_Z
+  - VK_I
+  ず:
+  - VK_Z
+  - VK_U
+  ぜ:
+  - VK_Z
+  - VK_E
+  ぞ:
+  - VK_Z
+  - VK_O
+  だ:
+  - VK_D
+  - VK_A
+  ぢ:
+  - VK_D
+  - VK_I
+  づ:
+  - VK_D
+  - VK_U
+  で:
+  - VK_D
+  - VK_E
+  ど:
+  - VK_D
+  - VK_O
+  ば:
+  - VK_B
+  - VK_A
+  び:
+  - VK_B
+  - VK_I
+  ぶ:
+  - VK_B
+  - VK_U
+  べ:
+  - VK_B
+  - VK_E
+  ぼ:
+  - VK_B
+  - VK_O
+  ぱ:
+  - VK_P
+  - VK_A
+  ぴ:
+  - VK_P
+  - VK_I
+  ぷ:
+  - VK_P
+  - VK_U
+  ぺ:
+  - VK_P
+  - VK_E
+  ぽ:
+  - VK_P
+  - VK_O
+  ゃ:
+  - VK_L
+  - VK_Y
+  - VK_A
+  ゅ:
+  - VK_L
+  - VK_Y
+  - VK_U
+  ょ:
+  - VK_L
+  - VK_Y
+  - VK_O
+  っ:
+  - VK_L
+  - VK_T
+  - VK_U

@@ -1,0 +1,9 @@
+Values:
+  '{Space}':
+  - SPACE
+  '{BS}':
+  - BACK
+  '{Enter}':
+  - RETURN
+  '{Kanji}':
+  - HANJA

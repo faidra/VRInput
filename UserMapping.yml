@@ -1,0 +1,55 @@
+Values:
+  か:
+  - VK_C
+  - VK_A
+  き:
+  - VK_C
+  - VK_I
+  く:
+  - VK_C
+  - VK_U
+  け:
+  - VK_C
+  - VK_E
+  こ:
+  - VK_C
+  - VK_O
+  っ:
+  - VK_L
+  - VK_T
+  ぱ:
+  - VK_L
+  - VK_A
+  ぴ:
+  - VK_L
+  - VK_I
+  ぷ:
+  - VK_L
+  - VK_U
+  ぺ:
+  - VK_L
+  - VK_E
+  ぽ:
+  - VK_L
+  - VK_O
+  ゃ:
+  - VK_P
+  - VK_V
+  - VK_A
+  ゅ:
+  - VK_P
+  - VK_V
+  - VK_U
+  ょ:
+  - VK_P
+  - VK_V
+  - VK_O
+  や:
+  - VK_V
+  - VK_A
+  ゆ:
+  - VK_V
+  - VK_U
+  よ:
+  - VK_V
+  - VK_O

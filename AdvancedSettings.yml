@@ -1,0 +1,6 @@
+KeyMappingPaths:
+- UserMapping.yml
+- FunctionMapping.yml
+- SymbolMapping.yml
+- HiraganaMapping.yml
+KeyReplacingPath: DvorakReplacing.yml

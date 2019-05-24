@@ -1,0 +1,24 @@
+Values:
+  VK_A: VK_A
+  VK_B: VK_N
+  VK_D: VK_H
+  VK_E: VK_D
+  VK_G: VK_U
+  VK_H: VK_J
+  VK_I: VK_G
+  VK_C: VK_I
+  VK_P: VK_R
+  VK_M: VK_M
+  VK_N: VK_L
+  VK_O: VK_S
+  VK_L: VK_P
+  VK_R: VK_O
+  VK_S: OEM_PLUS
+  VK_T: VK_K
+  VK_U: VK_F
+  VK_W: OEM_COMMA
+  VK_V: OEM_PERIOD
+  VK_Z: OEM_2
+  OEM_COMMA: VK_W
+  OEM_PERIOD: VK_E
+  OEM_MINUS: OEM_1
