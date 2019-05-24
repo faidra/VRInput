@@ -168,125 +168,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &267346073
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 267346074}
-  m_Layer: 0
-  m_Name: Replacer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &267346074
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267346073}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1532985409}
-  - {fileID: 1711273638}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &301002315
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 301002316}
-  m_Layer: 0
-  m_Name: Mappers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &301002316
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301002315}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 542081586}
-  - {fileID: 1904525795}
-  - {fileID: 1622104883}
-  - {fileID: 754611445}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &542081585
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 542081586}
-  - component: {fileID: 542081587}
-  m_Layer: 0
-  m_Name: FunctionMapper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &542081586
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542081585}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 301002316}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &542081587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 542081585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4808b692c2954a641ab2f0bd9dd4c794, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Info:
-    RawMap:
-    - Key: '{Space}'
-      Codes: 20000000
-    - Key: '{BS}'
-      Codes: 08000000
-    - Key: '{Enter}'
-      Codes: 0d000000
-    - Key: '{Kanji}'
-      Codes: 19000000
 --- !u!1 &577506264
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,201 +421,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &754611444
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 754611445}
-  - component: {fileID: 754611446}
-  m_Layer: 0
-  m_Name: HiraganaMapper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &754611445
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754611444}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 301002316}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &754611446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754611444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4808b692c2954a641ab2f0bd9dd4c794, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Info:
-    RawMap:
-    - Key: "\u3042"
-      Codes: 41000000
-    - Key: "\u3044"
-      Codes: 49000000
-    - Key: "\u3046"
-      Codes: 55000000
-    - Key: "\u3048"
-      Codes: 45000000
-    - Key: "\u304A"
-      Codes: 4f000000
-    - Key: "\u304B"
-      Codes: 4b00000041000000
-    - Key: "\u304D"
-      Codes: 4b00000049000000
-    - Key: "\u304F"
-      Codes: 4b00000055000000
-    - Key: "\u3051"
-      Codes: 4b00000045000000
-    - Key: "\u3053"
-      Codes: 4b0000004f000000
-    - Key: "\u3055"
-      Codes: 5300000041000000
-    - Key: "\u3057"
-      Codes: 5300000049000000
-    - Key: "\u3059"
-      Codes: 5300000055000000
-    - Key: "\u305B"
-      Codes: 5300000045000000
-    - Key: "\u305D"
-      Codes: 530000004f000000
-    - Key: "\u305F"
-      Codes: 5400000041000000
-    - Key: "\u3061"
-      Codes: 5400000049000000
-    - Key: "\u3064"
-      Codes: 5400000055000000
-    - Key: "\u3066"
-      Codes: 5400000045000000
-    - Key: "\u3068"
-      Codes: 540000004f000000
-    - Key: "\u306A"
-      Codes: 4e00000041000000
-    - Key: "\u306B"
-      Codes: 4e00000049000000
-    - Key: "\u306C"
-      Codes: 4e00000055000000
-    - Key: "\u306D"
-      Codes: 4e00000045000000
-    - Key: "\u306E"
-      Codes: 4e0000004f000000
-    - Key: "\u306F"
-      Codes: 4800000041000000
-    - Key: "\u3072"
-      Codes: 4800000049000000
-    - Key: "\u3075"
-      Codes: 4800000055000000
-    - Key: "\u3078"
-      Codes: 4800000045000000
-    - Key: "\u307B"
-      Codes: 480000004f000000
-    - Key: "\u307E"
-      Codes: 4d00000041000000
-    - Key: "\u307F"
-      Codes: 4d00000049000000
-    - Key: "\u3080"
-      Codes: 4d00000055000000
-    - Key: "\u3081"
-      Codes: 4d00000045000000
-    - Key: "\u3082"
-      Codes: 4d0000004f000000
-    - Key: "\u3084"
-      Codes: 5900000041000000
-    - Key: "\u3086"
-      Codes: 5900000055000000
-    - Key: "\u3088"
-      Codes: 590000004f000000
-    - Key: "\u3089"
-      Codes: 5200000041000000
-    - Key: "\u308A"
-      Codes: 5200000049000000
-    - Key: "\u308B"
-      Codes: 5200000055000000
-    - Key: "\u308C"
-      Codes: 5200000045000000
-    - Key: "\u308D"
-      Codes: 520000004f000000
-    - Key: "\u308F"
-      Codes: 5700000041000000
-    - Key: "\u3092"
-      Codes: 570000004f000000
-    - Key: "\u3093"
-      Codes: 4e0000004e000000
-    - Key: "\u304C"
-      Codes: 4700000041000000
-    - Key: "\u304E"
-      Codes: 4700000049000000
-    - Key: "\u3050"
-      Codes: 4700000055000000
-    - Key: "\u3052"
-      Codes: 4700000045000000
-    - Key: "\u3054"
-      Codes: 470000004f000000
-    - Key: "\u3056"
-      Codes: 5a00000041000000
-    - Key: "\u3058"
-      Codes: 5a00000049000000
-    - Key: "\u305A"
-      Codes: 5a00000055000000
-    - Key: "\u305C"
-      Codes: 5a00000045000000
-    - Key: "\u305E"
-      Codes: 5a0000004f000000
-    - Key: "\u3060"
-      Codes: 4400000041000000
-    - Key: "\u3062"
-      Codes: 4400000049000000
-    - Key: "\u3065"
-      Codes: 4400000055000000
-    - Key: "\u3067"
-      Codes: 4400000045000000
-    - Key: "\u3069"
-      Codes: 440000004f000000
-    - Key: "\u3070"
-      Codes: 4200000041000000
-    - Key: "\u3073"
-      Codes: 4200000049000000
-    - Key: "\u3076"
-      Codes: 4200000055000000
-    - Key: "\u3079"
-      Codes: 4200000045000000
-    - Key: "\u307C"
-      Codes: 420000004f000000
-    - Key: "\u3071"
-      Codes: 5000000041000000
-    - Key: "\u3074"
-      Codes: 5000000049000000
-    - Key: "\u3077"
-      Codes: 5000000055000000
-    - Key: "\u307A"
-      Codes: 5000000045000000
-    - Key: "\u307D"
-      Codes: 500000004f000000
-    - Key: "\u3083"
-      Codes: 4c0000005900000041000000
-    - Key: "\u3085"
-      Codes: 4c0000005900000055000000
-    - Key: "\u3087"
-      Codes: 4c000000590000004f000000
-    - Key: "\u3063"
-      Codes: 4c0000005400000055000000
 --- !u!1 &833618066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,221 +884,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1532985408
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1532985409}
-  - component: {fileID: 1532985410}
-  m_Layer: 0
-  m_Name: IdReplacer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1532985409
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532985408}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 267346074}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1532985410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1532985408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9621fd41be996948b46dc1f54f35146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ReplacerInfo:
-    ReplaceInfos: []
---- !u!1 &1622104881
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1622104883}
-  - component: {fileID: 1622104882}
-  m_Layer: 0
-  m_Name: DvorakMapper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1622104882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622104881}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4808b692c2954a641ab2f0bd9dd4c794, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Info:
-    RawMap:
-    - Key: "\u304B"
-      Codes: 4300000041000000
-    - Key: "\u304D"
-      Codes: 4300000049000000
-    - Key: "\u304F"
-      Codes: 4300000055000000
-    - Key: "\u3051"
-      Codes: 4300000045000000
-    - Key: "\u3053"
-      Codes: 430000004f000000
-    - Key: "\u3063"
-      Codes: 4c00000054000000
-    - Key: "\u3071"
-      Codes: 4c00000041000000
-    - Key: "\u3074"
-      Codes: 4c00000049000000
-    - Key: "\u3077"
-      Codes: 4c00000055000000
-    - Key: "\u307A"
-      Codes: 4c00000045000000
-    - Key: "\u307D"
-      Codes: 4c0000004f000000
-    - Key: "\u3083"
-      Codes: 500000005600000041000000
-    - Key: "\u3085"
-      Codes: 500000005600000055000000
-    - Key: "\u3087"
-      Codes: 50000000560000004f000000
-    - Key: "\u3084"
-      Codes: 5600000041000000
-    - Key: "\u3086"
-      Codes: 5600000055000000
-    - Key: "\u3088"
-      Codes: 560000004f000000
---- !u!4 &1622104883
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622104881}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 301002316}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1711273637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1711273638}
-  - component: {fileID: 1711273639}
-  m_Layer: 0
-  m_Name: DvorakReplacer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1711273638
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711273637}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 267346074}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1711273639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711273637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9621fd41be996948b46dc1f54f35146, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ReplacerInfo:
-    ReplaceInfos:
-    - From: 65
-      To: 65
-    - From: 66
-      To: 78
-    - From: 68
-      To: 72
-    - From: 69
-      To: 68
-    - From: 71
-      To: 85
-    - From: 72
-      To: 74
-    - From: 73
-      To: 71
-    - From: 67
-      To: 73
-    - From: 80
-      To: 82
-    - From: 77
-      To: 77
-    - From: 78
-      To: 76
-    - From: 79
-      To: 83
-    - From: 76
-      To: 80
-    - From: 82
-      To: 79
-    - From: 83
-      To: 187
-    - From: 84
-      To: 75
-    - From: 85
-      To: 70
-    - From: 87
-      To: 188
-    - From: 86
-      To: 190
-    - From: 90
-      To: 191
-    - From: 188
-      To: 87
-    - From: 190
-      To: 69
-    - From: 189
-      To: 186
 --- !u!1 &1718934499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,12 +988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   KeyGenerator: {fileID: 186809962}
-  KeyMappers:
-  - {fileID: 542081587}
-  - {fileID: 1904525796}
-  - {fileID: 1622104882}
-  - {fileID: 754611446}
-  KeycodeReplacer: {fileID: 1711273639}
+  AdvancedSettingsStore: {fileID: 1851076938}
 --- !u!4 &1744567811
 Transform:
   m_ObjectHideFlags: 0
@@ -1543,7 +1009,7 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 5208805051082098033}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1904525794
+--- !u!1 &1851076937
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1551,49 +1017,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1904525795}
-  - component: {fileID: 1904525796}
+  - component: {fileID: 1851076939}
+  - component: {fileID: 1851076938}
   m_Layer: 0
-  m_Name: SymbolMapper
+  m_Name: AdvancedSettings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1904525795
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904525794}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 301002316}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1904525796
+--- !u!114 &1851076938
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1904525794}
+  m_GameObject: {fileID: 1851076937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4808b692c2954a641ab2f0bd9dd4c794, type: 3}
+  m_Script: {fileID: 11500000, guid: 24c55a7ea9ae84c468126800608bcef2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Info:
-    RawMap:
-    - Key: "\u3002"
-      Codes: be000000
-    - Key: "\u3001"
-      Codes: bc000000
-    - Key: "\u30FC"
-      Codes: bd000000
+--- !u!4 &1851076939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851076937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1953104214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,11 +1152,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1406594929}
     m_Modifications:
-    - target: {fileID: 5208805051702735681, guid: 0f14037d3e3552c4e8c4dfe26f38beb6,
-        type: 3}
-      propertyPath: m_Name
-      value: KeyMasterEditor
-      objectReference: {fileID: 0}
     - target: {fileID: 5208805051702735680, guid: 0f14037d3e3552c4e8c4dfe26f38beb6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1793,6 +1246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5208805051702735681, guid: 0f14037d3e3552c4e8c4dfe26f38beb6,
+        type: 3}
+      propertyPath: m_Name
+      value: KeyMasterEditor
       objectReference: {fileID: 0}
     - target: {fileID: 5208805051457578516, guid: 0f14037d3e3552c4e8c4dfe26f38beb6,
         type: 3}
