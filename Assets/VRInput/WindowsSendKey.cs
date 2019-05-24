@@ -9,9 +9,10 @@ public class WindowsSendKey : MonoBehaviour
     [SerializeField]
     KeyGenerator KeyGenerator;
     [SerializeField]
-    KeyMapper[] KeyMappers;
-    [SerializeField]
-    KeycodeReplacer KeycodeReplacer;
+    AdvancedSettingsStore AdvancedSettingsStore;
+
+    IEnumerable<KeyMapping> KeyMappings => AdvancedSettingsStore.AdvancedSettings.KeyMappings;
+    KeyReplacing KeyReplacing => AdvancedSettingsStore.AdvancedSettings.KeyReplacing;
 
     IKeyboardSimulator KeyboardSimulator;
 
@@ -23,12 +24,12 @@ public class WindowsSendKey : MonoBehaviour
 
     void OnKey(string str)
     {
-        foreach (var mapper in KeyMappers)
+        foreach (var mapper in KeyMappings)
         {
             var codes = mapper.Map(str);
             if (codes != null)
             {
-                Send(codes.Select(c => KeycodeReplacer.Replace(c)));
+                Send(codes.Select(c => KeyReplacing.Replace(c)));
                 return;
             }
         }
