@@ -4,46 +4,39 @@ using System;
 public class KeyGenerator : MonoBehaviour
 {
     [SerializeField]
-    PadState LeftPad;
-    [SerializeField]
-    PadState RightPad;
+    PadState PadState;
     [SerializeField]
     KeyMasterStore KeyMasterStore;
     [SerializeField]
-    SnapEvent SnapEvent;
+    ButtonPressedState TriggerState;
     [SerializeField]
-    TapEvent TapEvent;
+    ButtonPressedState PadPressState;
 
     KeyMaster KeyMaster => KeyMasterStore.KeyMaster;
     public event Action<string> Key;
 
-    public void Start()
+    bool _lastPadPressed;
+
+    void Update()
     {
-        TapEvent.OnTap += OnTap; // (Stateの変更後に叩かれないといけないという)順番依存あるけどまあ動いてるし……
-        SnapEvent.LRoll += OnSnap;
-        SnapEvent.Left += OnLeft;
-        SnapEvent.Up += OnUp;
-        SnapEvent.Right += OnRight;
-        SnapEvent.Down += OnDown;
+        var pressed = PadPressState.GetState() == ButtonPressedState.State.On;
+        if (pressed && !_lastPadPressed) Invoke();
+        _lastPadPressed = pressed;
     }
 
     KeySet GetCurrentSet()
     {
-        switch (LeftPad.GetState())
+        switch (TriggerState.GetState())
         {
-            case PadState.State.Off: return GetCurrentSet(KeyMaster.Off);
-            case PadState.State.Center: return GetCurrentSet(KeyMaster.Center);
-            case PadState.State.Left: return GetCurrentSet(KeyMaster.Left);
-            case PadState.State.Up: return GetCurrentSet(KeyMaster.Up);
-            case PadState.State.Right: return GetCurrentSet(KeyMaster.Right);
-            case PadState.State.Down: return GetCurrentSet(KeyMaster.Down);
+            case ButtonPressedState.State.Off: return GetCurrentSet(KeyMaster.Off);
+            case ButtonPressedState.State.On: return GetCurrentSet(KeyMaster.Center);
             default: throw new Exception();
         }
     }
 
     KeySet GetCurrentSet(KeyMap map)
     {
-        switch (RightPad.GetState())
+        switch (PadState.GetState())
         {
             case PadState.State.Off: return null;
             case PadState.State.Center: return map.Center;
@@ -55,27 +48,12 @@ public class KeyGenerator : MonoBehaviour
         }
     }
 
-    void OnTap()
+    void Invoke()
     {
         var current = GetCurrentSet();
-        if (current != null && current.IsTapTrigger) Invoke(current.Tap);
+        Debug.Log(current?.Snap);
+        if (current != null) Invoke(current.Snap);
     }
-
-    void OnNontap(Func<KeySet, string> mapper)
-    {
-        var current = GetCurrentSet();
-        if (current != null && !current.IsTapTrigger) Invoke(mapper(current));
-    }
-
-    void OnSnap() => OnNontap(c => c.Snap);
-
-    void OnLeft() => OnNontap(c => c.Left);
-
-    void OnUp() => OnNontap(c => c.Up);
-
-    void OnRight() => OnNontap(c => c.Right);
-
-    void OnDown() => OnNontap(c => c.Down);
 
     void Invoke(string key)
     {
