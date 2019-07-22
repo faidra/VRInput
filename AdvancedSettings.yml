@@ -2,4 +2,5 @@ KeyMappingPaths:
 - FunctionMapping.yml
 - SymbolMapping.yml
 - HiraganaMapping.yml
+- AlphabetMapping.yml
 KeyReplacingPath:

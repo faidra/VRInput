@@ -1,0 +1,105 @@
+Values:
+  a:
+  - VK_A
+  b:
+  - VK_B
+  c:
+  - VK_C
+  d:
+  - VK_D
+  e:
+  - VK_E
+  f:
+  - VK_F
+  g:
+  - VK_G
+  h:
+  - VK_H
+  i:
+  - VK_I
+  j:
+  - VK_J
+  k:
+  - VK_K
+  l:
+  - VK_L
+  m:
+  - VK_M
+  n:
+  - VK_N
+  o:
+  - VK_O
+  p:
+  - VK_P
+  q:
+  - VK_Q
+  r:
+  - VK_R
+  s:
+  - VK_S
+  t:
+  - VK_T
+  u:
+  - VK_U
+  v:
+  - VK_V
+  w:
+  - VK_W
+  x:
+  - VK_X
+  y:
+  - VK_Y
+  z:
+  - VK_Z
+  A:
+  - VK_A
+  B:
+  - VK_B
+  C:
+  - VK_C
+  D:
+  - VK_D
+  E:
+  - VK_E
+  F:
+  - VK_F
+  G:
+  - VK_G
+  H:
+  - VK_H
+  I:
+  - VK_I
+  J:
+  - VK_J
+  K:
+  - VK_K
+  L:
+  - VK_L
+  M:
+  - VK_M
+  N:
+  - VK_N
+  O:
+  - VK_O
+  P:
+  - VK_P
+  Q:
+  - VK_Q
+  R:
+  - VK_R
+  S:
+  - VK_S
+  T:
+  - VK_T
+  U:
+  - VK_U
+  V:
+  - VK_V
+  W:
+  - VK_W
+  X:
+  - VK_X
+  Y:
+  - VK_Y
+  Z:
+  - VK_Z
